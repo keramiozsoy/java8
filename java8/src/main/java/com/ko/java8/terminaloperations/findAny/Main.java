@@ -1,18 +1,22 @@
-package com.ko.java8.findAny;
+package com.ko.java8.terminaloperations.findAny;
 
-import java.util.stream.Stream;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
         // sequential stream
-        Stream.of("lemon","apple","orange","pineapple")
+        List<String> fruitList = new ArrayList<>(Arrays.asList("lemon","apple","orange","pineapple"));
+
+        fruitList.stream()
                 .findAny()
                 .ifPresent(System.out::println);
 
         // parallel stream
-        Stream.of("lemon","apple","orange","pineapple")
+        fruitList.stream()
                 .parallel()
                 .findAny()
                 .ifPresent(System.out::println);
