@@ -22,13 +22,13 @@ public class Main {
     }
 
     private static void example2(){
-        List<Employee> listOfEmploye = Arrays.asList(
+        List<Employee> listOfEmployee = Arrays.asList(
                 new Employee(1L,"George", 20),
                 new Employee(2L,"Lily", 22),
                 new Employee(3L,"Mike", 19)
         );
 
-        List<Integer> listOfAges = listOfEmploye.stream()
+        List<Integer> listOfAges = listOfEmployee.stream()
                 .map(e -> e.age)
                 .collect(Collectors.toList());
 
