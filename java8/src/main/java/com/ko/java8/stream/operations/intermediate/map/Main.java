@@ -7,11 +7,11 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static void main(String[] args) {
-        Main.example1();
-        Main.example2();
+        example1();
+        example2();
     }
 
-    static void example1(){
+    private static void example1(){
         List<String> listOfStrings = Arrays.asList("1", "2", "3", "4", "5");
 
         List<Integer> listOfIntegers = listOfStrings.stream()
@@ -21,7 +21,7 @@ public class Main {
         System.out.println(listOfIntegers);
     }
 
-    static void example2(){
+    private static void example2(){
         List<Employee> listOfEmploye = Arrays.asList(
                 new Employee(1L,"George", 20),
                 new Employee(2L,"Lily", 22),
