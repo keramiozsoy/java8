@@ -10,7 +10,7 @@ https://github.com/keramiozsoy/java8/find/main
 
  Info
 
- - intermediate operations return a stream,
+ ### intermediate operations return a stream,
 
  * distinct 
  * filter
@@ -21,7 +21,7 @@ https://github.com/keramiozsoy/java8/find/main
  * skip
  * sorted
 
- - terminal operations return non-stream values like primitive or object or collection or may not return anything.
+  ### terminal operations return non-stream values like primitive or object or collection or may not return anything.
 
  * allMatch
  * anyMatch
