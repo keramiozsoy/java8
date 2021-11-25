@@ -167,6 +167,15 @@ Elimizdeki bir User objesinin bilgilerini dolduralim.
 UnaryOperatorMain
 
 
+## BinaryOperator
+
+## Supplier
+
+## Consumer
+
+
+
+
 
 
 
