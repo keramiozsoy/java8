@@ -10,7 +10,7 @@ public class Main {
         List<Integer> listOfInteger = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
         final boolean result = listOfInteger.stream()
-                .anyMatch(element -> element > 7); // is there any element greater than 7
+                .anyMatch(element -> element > 7); // are there any element greater than 7
 
         System.out.println(result);
 
